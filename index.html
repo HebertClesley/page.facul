@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portal do Aluno</title>
+</head>
+<body>
+    <div class="login">
+       <div class="header">
+        <img src="/img/logo.png" alt="Logo da Faculdade Anhanguera">
+        <div class="msg"><h4>Bem-vindo aluno!</h4></div>
+       </div>
+       <form id="login"  method="POST">
+                        <div class="form-text">
+                            <input type="text"  class="form-control" placeholder="CPF ou RA" value="" maxlength="150" autocomplete="username">
+                        </div>
+                        <div class="form-text">
+                            <input type="password" class="form-control" placeholder="Senha" value="" maxlength="16" autocomplete="current-password">
+                        </div>
+                        <div class="form-group">
+                            <span>
+                                <label for="checkbox">
+                                        <input type="checkbox" id="checkbox" name="lembrarMe">
+                                   Salvar dados
+                                </label>
+                            </span>
+                        </div>
+                        <p class="fix">
+                            <a href="">Esqueci minha senha / Primeiro acesso</a>
+                        </p>
+                         <div class="btns">
+                            <div class="form-group">
+                            <button  class="btn-log" type="submit">
+                                <a href="/boas vindas/boasvindas.html">Entrar</a>
+                            </button>
+                        </div>
+
+                        <div class="form-group">
+                            <button  class="btn-cancel" type="reset">
+                                Cancelar 
+                            </button>
+                        </div>
+                         </div>
+                    </form>
+    </div>
+</body>
+</html>
